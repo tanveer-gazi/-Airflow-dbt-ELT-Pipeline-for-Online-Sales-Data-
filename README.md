@@ -8,6 +8,7 @@ This project showcases an end-to-end ELT (Extract, Load, Transform) data pipelin
 The pipeline automates ingestion of online sales data, loads it into a PostgreSQL data warehouse, applies transformations using dbt, and makes analytics-ready tables available for business intelligence and reporting through Apache Superset.  
 The goal of this project is to simulate a production-style data platform commonly used in real-world analytics teams.
 
+![ELT Pipeline Architecture](https://github.com/tanveer-gazi/-Airflow-dbt-ELT-Pipeline-for-Online-Sales-Data-/blob/47d3b336ec774ec7d35958e0be07533ab109052f/explanation%20snapshot.png)
 
 ## Data Source  
 
