@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: staging
+    database: database
+    schema: staging
+    tables:
+      - name: online_sales_data
+        columns:
+          - name: id
+          - name: invoice_no
+          - name: stock_code
+          - name: description
+          - name: quantity
+          - name: invoice_date
+          - name: unit_price
+          - name: customer_id
+          - name: country
+          - name: discount
+          - name: payment_method
+          - name: shipping_cost
+          - name: category
+          - name: sales_channel
+          - name: return_status
+          - name: shipment_provider
+          - name: warehouse_location
+          - name: order_priority
